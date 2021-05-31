@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="web_homework.css">
+
+    <title>Web Homework</title>
+  </head>
+  <body>
+    <!-- Option 2: Separate Popper and Bootstrap JS --> 
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+   
+    <!-- beginning of Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Home</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="comparisons.html">Comparisons</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="data.html">Data</a>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li> -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Plots
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="max_temp.html">Max Temperature</a></li>
+                <li><a class="dropdown-item" href="humidity.html">Humidity</a></li>
+                <li><a class="dropdown-item" href="cloudiness.html">Cloudiness</a></li>
+                <li><a class="dropdown-item" href="wind_speed.html">Wind Speed</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- end of Navbar -->
+    <br>
+    <h1>How's the Weather?</h1>
+    <br>
+    <br>
+    <!-- <img src="assets/world_home.png" class="img-fluid" alt="world_home"> -->
+    <!-- <img src="assets/world_home.png" alt="world_home"> -->
+    <!-- <img src="assets/world_home.png" class="img-thumbnail" alt="world_home">
+    <p>This will be my workingffgjsg jdskjasdghhgoagsajnfg sghg sas gahsgasga hgs;hg;osahg h hgshfghsoigosi gosgoh sighsohgosgos o ho sog sgo</p>
+         -->
+         <!-- <div class="col-md-12">
+          <img src="assets/world_home.png" class="pull-left">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste molestiae aliquam optio mollitia, unde quas eaque voluptatem dignissimos eos maiores magni reprehenderit nisi, corrupti nemo hic id cum quasi officiis!</p>
+          </div>  -->
+          <div class="fluid-container">
+            <div class="clearfix">
+              <img src="assets/world_home.png" class="col-md-6 float-md-end mb-3 ms-md-3" alt="...">
+            
+              <p>
+                The purpose of this project was to analyze how weather changes as you get closer to the equator.  To accomplish 
+                this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset of over 500 cities.
+              </p>
+            <br>
+              <p>
+                After assembling the dataset, we used Matplotlib to plot various aspects of the wather vs Latitude.
+                Factors we looked at included: Temperature, cloudiness, wind_speed, and humidity.  This site provides the source data 
+                and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.
+              </p>
+            
+            </div>
+
+
+
+          </div>
+          
+                  </div>
+              </article>
+          </div> 
+
+  </body>
+</html>

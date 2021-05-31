@@ -1,0 +1,12 @@
+/* css for web homework assignment */
+.picture {
+    width: 600px;
+    height: 600px;
+    /* border-radius: 50%; */
+    } 
+
+hr {
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, rgba(236, 233, 16, 0.911), rgba(0, 0, 0, 0.75), rgba(9, 190, 33, 0.993));
+    }
