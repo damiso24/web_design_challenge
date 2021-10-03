@@ -1,18 +1,14 @@
-# Web Design Homework - Web Visualization Dashboard (Latitude)
+# Web Visualization Dashboard
 
-## Latitude - Latitude Analysis Dashboard with Attitude
+## Analysis Dashboard
 
-creating a visualization dashboard website using visualizations we've created in a past assignment. Specifically, we'll be plotting [weather data](Resources/cities.csv).
+I will create a visualization dashboard website using visualizations we've created in a past assignment. Specifically, we'll be plotting [weather data](Resources/cities.csv).
 
-In building this dashboard, we'll create individual pages for each plot and a means by which we can navigate between them. These pages will contain the visualizations and their corresponding explanations. We'll also have a landing page, a page where we can see a comparison of all of the plots, and another page where we can view the data used to build them.
+In building this dashboard, I'll create individual pages for each plot and a means by which user can navigate between them. These pages will contain the visualizations and their corresponding explanations. I'll also develop a landing page, a page where users can see a comparison of all of the plots, and another page where users can view the data used to build them.
 
-### Website Requirements
+The website will consist of 7 pages total, including:
 
-
-
-The website must consist of 7 pages total, including:
-
-* A [landing page](#landing-page) containing:
+* A landing page containing:
   * An explanation of the project.
   * Links to each visualizations page. 
 * Four [visualization pages](#visualization-pages), each with:
